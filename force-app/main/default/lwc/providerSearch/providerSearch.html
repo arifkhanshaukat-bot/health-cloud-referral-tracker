@@ -1,0 +1,30 @@
+<template>
+    <lightning-card title="Find a provider" icon-name="standard:account">
+        <div class="slds-p-horizontal_medium slds-grid slds-gutters slds-wrap">
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_2-of-3">
+                <lightning-input type="search" label="Provider name" value={searchTerm} onchange={handleTermChange} data-id="term"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                <lightning-combobox label="Specialty" value={specialty} options={specialtyOptions} onchange={handleSpecialtyChange} data-id="specialty"></lightning-combobox>
+            </div>
+        </div>
+        <template lwc:if={hasResults}>
+            <ul class="slds-has-dividers_bottom-space slds-p-horizontal_medium">
+                <template for:each={providers} for:item="p">
+                    <li key={p.Id} class="slds-item">
+                        <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center">
+                            <div>
+                                <p class="slds-text-heading_small">{p.Name}</p>
+                                <p class="slds-text-body_small slds-text-color_weak">{p.Specialty__c} &middot; {p.BillingCity}</p>
+                            </div>
+                            <lightning-button label="Select" data-id={p.Id} onclick={handleSelect}></lightning-button>
+                        </div>
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template lwc:elseif={searched}>
+            <p class="slds-p-horizontal_medium slds-text-color_weak" data-id="no-results">No providers found.</p>
+        </template>
+    </lightning-card>
+</template>
