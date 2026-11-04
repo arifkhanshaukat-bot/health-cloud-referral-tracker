@@ -130,3 +130,8 @@ push; it also runs the Apex tests in a scratch org when an `SF_DEVHUB_AUTH_URL` 
 ## License
 
 MIT, see [LICENSE](LICENSE).
+
+## Author
+
+Arif Khan, Senior Salesforce Developer (Health Cloud, OmniStudio, Apex/LWC, integrations).
+[LinkedIn](https://www.linkedin.com/in/arif-khan-99102a427) · [GitHub](https://github.com/arifkhanshaukat-bot)
