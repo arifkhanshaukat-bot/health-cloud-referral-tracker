@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "Pat0"
+      },
+      "FirstName": "Alex",
+      "LastName": "Rivera (Synthetic)",
+      "Email": "alex.rivera@example.com"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "Pat1"
+      },
+      "FirstName": "Jordan",
+      "LastName": "Lee (Synthetic)",
+      "Email": "jordan.lee@example.com"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "Pat2"
+      },
+      "FirstName": "Sam",
+      "LastName": "Patel (Synthetic)",
+      "Email": "sam.patel@example.com"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "Pat3"
+      },
+      "FirstName": "Taylor",
+      "LastName": "Nguyen (Synthetic)",
+      "Email": "taylor.nguyen@example.com"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "Pat4"
+      },
+      "FirstName": "Morgan",
+      "LastName": "Okafor (Synthetic)",
+      "Email": "morgan.okafor@example.com"
+    }
+  ]
+}

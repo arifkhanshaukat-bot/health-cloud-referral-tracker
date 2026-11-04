@@ -1,0 +1,124 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref0"
+      },
+      "Patient__c": "@Pat0",
+      "Provider__c": "@Prov0",
+      "Specialty__c": "Cardiology",
+      "Priority__c": "Routine",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-11-10"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref1"
+      },
+      "Patient__c": "@Pat1",
+      "Provider__c": "@Prov1",
+      "Specialty__c": "Neurology",
+      "Priority__c": "Urgent",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-11-11"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref2"
+      },
+      "Patient__c": "@Pat2",
+      "Provider__c": "@Prov2",
+      "Specialty__c": "Dermatology",
+      "Priority__c": "Routine",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-11-12"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref3"
+      },
+      "Patient__c": "@Pat3",
+      "Provider__c": "@Prov3",
+      "Specialty__c": "Physical Therapy",
+      "Priority__c": "Stat",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-11-13"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref4"
+      },
+      "Patient__c": "@Pat4",
+      "Provider__c": "@Prov4",
+      "Specialty__c": "Behavioral Health",
+      "Priority__c": "Routine",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-11-14"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref5"
+      },
+      "Patient__c": "@Pat0",
+      "Provider__c": "@Prov0",
+      "Specialty__c": "Cardiology",
+      "Priority__c": "Routine",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-11-15"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref6"
+      },
+      "Patient__c": "@Pat1",
+      "Provider__c": "@Prov1",
+      "Specialty__c": "Neurology",
+      "Priority__c": "Urgent",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-12-16"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref7"
+      },
+      "Patient__c": "@Pat2",
+      "Provider__c": "@Prov2",
+      "Specialty__c": "Dermatology",
+      "Priority__c": "Routine",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-12-17"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref8"
+      },
+      "Patient__c": "@Pat3",
+      "Provider__c": "@Prov3",
+      "Specialty__c": "Physical Therapy",
+      "Priority__c": "Stat",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-12-18"
+    },
+    {
+      "attributes": {
+        "type": "Referral__c",
+        "referenceId": "Ref9"
+      },
+      "Patient__c": "@Pat4",
+      "Provider__c": "@Prov4",
+      "Specialty__c": "Behavioral Health",
+      "Priority__c": "Routine",
+      "Reason__c": "Synthetic demo referral. No real patient data.",
+      "Due_Date__c": "2026-12-19"
+    }
+  ]
+}

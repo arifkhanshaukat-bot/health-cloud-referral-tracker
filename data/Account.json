@@ -1,0 +1,59 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "Prov0"
+      },
+      "Name": "Synthetic Heart Clinic",
+      "Specialty__c": "Cardiology",
+      "BillingCity": "Springfield",
+      "Accepting_Referrals__c": true,
+      "Phone": "(555) 010-1000"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "Prov1"
+      },
+      "Name": "Lakeside Neurology Group (Demo)",
+      "Specialty__c": "Neurology",
+      "BillingCity": "Riverton",
+      "Accepting_Referrals__c": true,
+      "Phone": "(555) 010-1001"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "Prov2"
+      },
+      "Name": "Northgate Skin Center (Demo)",
+      "Specialty__c": "Dermatology",
+      "BillingCity": "Springfield",
+      "Accepting_Referrals__c": true,
+      "Phone": "(555) 010-1002"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "Prov3"
+      },
+      "Name": "Maple Physical Therapy (Demo)",
+      "Specialty__c": "Physical Therapy",
+      "BillingCity": "Fairview",
+      "Accepting_Referrals__c": true,
+      "Phone": "(555) 010-1003"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "Prov4"
+      },
+      "Name": "Harbor Behavioral Health (Demo)",
+      "Specialty__c": "Behavioral Health",
+      "BillingCity": "Riverton",
+      "Accepting_Referrals__c": true,
+      "Phone": "(555) 010-1004"
+    }
+  ]
+}
