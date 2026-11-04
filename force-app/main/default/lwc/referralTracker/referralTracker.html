@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Referrals" icon-name="custom:custom63">
+        <div slot="actions">
+            <lightning-button-icon icon-name="utility:refresh" alternative-text="Refresh" onclick={handleRefresh}></lightning-button-icon>
+        </div>
+        <template lwc:if={error}>
+            <div class="slds-p-horizontal_medium slds-text-color_error" data-id="error">{error}</div>
+        </template>
+        <template lwc:elseif={hasReferrals}>
+            <div class="slds-p-horizontal_medium slds-p-bottom_small" data-id="summary">
+                {openCount} open &middot; {overdueCount} overdue
+            </div>
+            <lightning-datatable
+                key-field="Id"
+                data={rows}
+                columns={columns}
+                hide-checkbox-column
+                onrowaction={handleRowAction}
+            ></lightning-datatable>
+        </template>
+        <template lwc:else>
+            <div class="slds-p-horizontal_medium slds-text-color_weak" data-id="empty">No referrals for this patient.</div>
+        </template>
+    </lightning-card>
+</template>
